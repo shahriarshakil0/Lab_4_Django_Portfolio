@@ -1,0 +1,84 @@
+{% extends "layout.html" %}
+{% load static %}
+{% block body %}
+<div class="container mt-5">
+    <h3 class="text-center">Introduction</h3>
+    <p class="text-center"> Hey, I am Shahriar Shakil. I love programming.</p>
+    <img src="{% static 'images/pic1.png' %}" class="rounded mx-auto d-block w-25 p-3" alt="My_photo">
+</div>
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            Work Experience
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Daffodil Software Company Ltd</h5>
+          <strong>2022 Jan 1 - continue</strong>
+          <p class="card-text">Jr. Software Engineer</p>
+        </div>
+        <div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">React</li>
+                <li class="list-group-item">Flask</li>
+                <li class="list-group-item">Django</li>
+                <li class="list-group-item">Machine Learning</li>
+              </ul>
+        </div>
+
+        <div class="card-body">
+          <h5 class="card-title">Daffodil Computers Ltd</h5>
+          <strong>2021 Jan 1 - 2021 Dec 1</strong>
+          <p class="card-text">Jr. Hardware Engineer</p>
+        </div>
+        <div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Os Install</li>
+                <li class="list-group-item">Motherboard</li>
+                <li class="list-group-item">Monitor</li>
+                <li class="list-group-item">Desktop Setup</li>
+              </ul>
+        </div>
+      </div>
+</div>
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+          Skills
+        </div>
+        <div class="card-body">
+         <div class="row">
+             <div class="col">
+                <strong class="text-center">Programming Language</strong>
+                <div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">C</li>
+                        <li class="list-group-item">JAVA</li>
+                        <li class="list-group-item">Python</li>
+                        <li class="list-group-item">Php</li>
+                      </ul>
+                </div>
+             </div>
+            
+
+             <div class="col">
+                <strong class="text-center">Framework</strong>
+                <div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Flask</li>
+                        <li class="list-group-item">Django</li>
+                        <li class="list-group-item">React</li>
+                        <li class="list-group-item">Tensorflow</li>
+                      </ul>
+                </div>
+             </div>
+            
+
+         </div>
+        
+        </div>
+      </div>
+</div>
+{% endblock %}
+
